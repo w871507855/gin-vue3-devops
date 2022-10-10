@@ -1,0 +1,28 @@
+app:
+  name: "opserver"
+  mode: "dev"
+  port: 8082
+
+snowflake:
+  Startime: "2006-01-01"
+  machineID: 1
+
+log:
+  level: "debug"
+  filename: "opserver.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+db:
+  Host: "127.0.0.1"
+  Port: 3306
+  UserName: "root"
+  Password: "lcc123456"
+  Database: "ops_test"
+  Charset: utf8
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  db: 0

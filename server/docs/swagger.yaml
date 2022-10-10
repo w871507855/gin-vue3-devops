@@ -1,0 +1,18 @@
+info:
+  contact: {}
+paths:
+  /ping:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code": "200", "data": "", "message"}'
+          schema:
+            type: string
+      summary: ping
+      tags:
+      - ping方法
+swagger: "2.0"

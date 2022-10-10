@@ -1,0 +1,10 @@
+/server/.idea
+/server/.vscode
+/server/main
+/server/*.log
+/web/.idea
+/web/.vscode
+/web/dist
+/web/node_modules
+.vscode
+.idea
